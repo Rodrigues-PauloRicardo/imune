@@ -1,0 +1,51 @@
+
+
+img{
+    height: 200px;
+}
+    .aaa{
+        background-color: #49B4B7;
+        height: 200px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        
+
+
+    }
+    .bbb{
+        background-color: red;
+        height: 100px;
+        width: 500px;
+        display: inline-block;
+
+    }
+    .ccc{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+
+    }
+    .ddd{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+
+    }
+    .eee{
+        background-color: magenta;
+        height: 100px;
+        width: 100px;
+    }
+    .fff{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+    }
+    .ggg{
+        background-color: green;
+        height: 100px;
+        width: 100px;
+    }
