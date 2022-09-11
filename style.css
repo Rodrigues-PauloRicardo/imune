@@ -1,51 +1,90 @@
-
-
-img{
-    height: 200px;
-}
     .aaa{
         background-color: #49B4B7;
-        height: 200px;
-        width: 100vw;
+        height: 100px;
+        width: 100%;
+        display: flex;        
+        align-items: center;
+    }
+    .img{
+        margin-left: 0;
+    }
+    .inputCadastro{
+        margin-left: 20%;
+    }
+
+    @media screen and (max-width:400px) {
+        .inputCadastro{
+           margin-left: 1%; 
+    }
+    }
+
+
+
+
+    .bbb{
+        margin-top: 5px;
+        background-color: #387072;        
+        height: 40px;
+        width: 100%;
         display: flex;
         justify-content: center;
-        
-
-
-    }
-    .bbb{
-        background-color: red;
-        height: 100px;
-        width: 500px;
-        display: inline-block;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
 
     }
     .ccc{
         background-color: yellow;
-        height: 100px;
-        width: 100px;
-        display: inline-block;
-
+        height: 205px;
+        width: 100%;
+    }
+    form{
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
     }
     .ddd{
-        background-color: blue;
-        height: 100px;
-        width: 100px;
-        display: inline-block;
+        margin-top: 5px;
+        background-color: #387072;        
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }       
+    
+    .boxVacina{
+        border: 1px solid blue;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .botao{   
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        margin-top: 5px;
+        background-color: #387072;        
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
 
     }
-    .eee{
-        background-color: magenta;
-        height: 100px;
-        width: 100px;
-    }
-    .fff{
-        background-color: black;
-        height: 100px;
-        width: 100px;
-    }
-    .ggg{
-        background-color: green;
-        height: 100px;
-        width: 100px;
-    }
+
